@@ -3,7 +3,7 @@ import os
 class Config(object):
   API_ID = int(os.environ.get("API_ID", "20269090"))
   API_HASH = os.environ.get("API_HASH", "8111a0f4a3ef31323fec4c16556bbe37")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "7944768547:AAHfhpVxtBjfv6S0leqDwJFK5aAtIz-2AMU")
   BOT_USERNAME = os.environ.get("BOT_USERNAME", "Storagefiles_bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "1002449209310"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
